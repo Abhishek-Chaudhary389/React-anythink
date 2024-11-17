@@ -1,14 +1,21 @@
 {
   "name": "react-anythink",
   "version": "1.0.0",
-  "main": "App.js",
+  "description": "\" this is my project\"",
+ 
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
-  "keywords": [
-    "tutorial"
-  ],
-  "author": "ak",
+  "author": "abhishek",
   "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "parcel": "^2.13.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
 }
